@@ -5,7 +5,8 @@ var user = require('./organise.js');
 
 let input=process.argv.slice(2);
 let cmd=input[0];
-
+console.log(input);
+console.log(cmd);
 switch(cmd){
 
     case "view":
